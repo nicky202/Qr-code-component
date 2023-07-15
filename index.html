@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <style>
+    body{
+      background-color: hsl(212, 45%, 89%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .card{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: auto;
+      border-radius: 1rem;
+      background-color: hsl(0, 0%, 100%);
+      padding: 1rem;
+      text-align: center;
+    }
+    @media screen and (max-width:375px) {
+      .card{
+        width: 80%;
+      }
+    }
+    .cardImage{
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+    h2{
+      color: hsl(218, 44%, 22%);
+    }
+    p{
+      color: hsl(220, 15%, 55%);
+    }
+  </style>
+</head>
+<body >
+
+  <div class="card">
+    <div class="cardImage">
+      <img src="./images/image-qr-code.png" alt="image-qr-code" width="100%" height="100%"> 
+    </div>
+    <h2>
+      <strong>
+        Improve your front-end skills by building projects
+      </strong> 
+    </h2>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  </div>
+</body>
+</html>
